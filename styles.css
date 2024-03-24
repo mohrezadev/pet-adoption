@@ -168,7 +168,18 @@ body {
   border: none;
   font-family: inherit;
   font-size: inherit;
-  color: inherit;
+  color: #9f9f9f;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
+  text-decoration: underline;
 }
 
 .site-footer p {
