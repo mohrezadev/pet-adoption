@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <div class="top-section-wrapper">
       <div class="top-section">
@@ -19,12 +20,13 @@
           <h1>Find Your New Bestie</h1>
           <p class="intro-text">
             The most amazing list of adoptable pets at your fingertips. Updated
-            fresh daily.
+            fresh daily!
           </p>
           <div class="intro-buttons">
             <a href="#view-pets" class="our-btn utility-mr">View Pets</a>
             <a href="#" class="our-btn our-btn--outline">Manage Pets</a>
           </div>
+
           <div class="intro-features">
             <div class="intro-feature">
               <svg
@@ -46,6 +48,7 @@
                   </clipPath>
                 </defs>
               </svg>
+
               <h2>Sunny Play</h2>
 
               <p>
@@ -76,7 +79,9 @@
                   </clipPath>
                 </defs>
               </svg>
+
               <h2>Dedicated Staff</h2>
+
               <p>
                 Our center has over 70 volunteers who play with the pets four
                 times daily.
@@ -102,9 +107,11 @@
                   </clipPath>
                 </defs>
               </svg>
+
               <h2>Voted #1</h2>
+
               <p>
-                For the last five years we&rsaquo;ve consistently been voted the
+                For the last five years we&rsquo;ve consistently been voted the
                 #1 pet adoption center in the state.
               </p>
             </div>
@@ -132,7 +139,9 @@
                   </clipPath>
                 </defs>
               </svg>
+
               <h2>Nightly Yoga</h2>
+
               <p>
                 Every night our staff leads a yoga session and the animals are
                 free to roam around and relax around people.
@@ -140,22 +149,25 @@
             </div>
           </div>
         </div>
+
         <div class="circle"></div>
         <div class="circle-two"></div>
       </div>
     </div>
+
     <div class="page-section" id="view-pets">
       <div class="page-section-inner">
         <h2 class="page-section-title">Meet Our Friends</h2>
         <div class="pet-filter">
           <p>
-            Show me: <button class="active" data-filter="All">All Pets</button
-            ><button data-filter="dog">Only Dogs</button
-            ><button data-filter="cat">Only Cats</button>
+            Show me: <button class="active" data-filter="all">All Pets</button>
+            <button data-filter="dog">Only Dogs</button>
+            <button data-filter="cat">Only Cats</button>
           </p>
         </div>
 
         <div class="list-of-pets"></div>
+
         <template id="pet-card-template">
           <div class="pet-card">
             <div class="pet-card-text">
@@ -170,6 +182,7 @@
         </template>
       </div>
     </div>
+
     <footer class="site-footer">
       <p>&copy; 2023 Fake Adoption Center. All rights reserved.</p>
     </footer>
